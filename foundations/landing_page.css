@@ -1,0 +1,164 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+.hero-header {
+    background-color: #1f2937;
+    height: 500px;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 0 200px;
+}
+
+.header {
+    display: flex;
+}
+
+.header-link, .logo {
+    padding: 20px 20px 20px 0;
+}
+
+.header-link, .text p {
+    font-size: 18px;
+    color: #e5e7eb;
+}
+
+.logo {
+    margin-right: auto;
+    font-size: 24px;
+    color: #f9faf8;
+    font-weight: bold;
+}
+
+a {
+    text-decoration: none;
+}
+
+.hero {
+    margin-top: 60px;
+    display: flex;
+}
+
+.text {
+    width: 50%;
+}
+
+.text h1 {
+    font-size: 48px;
+    font-weight: 900;
+    color: #f9faf8;
+    margin-top: 10px;
+    margin-bottom: 10px;
+
+}
+
+.text button {
+    background-color: #3882f6;
+    padding: 5px 25px;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    margin-top: 10px;
+    font-weight: bold;
+}
+
+.image {
+    width: 50%;
+}
+
+.information {
+    padding: 0 200px;
+}
+
+.information h1 {
+    font-size: 36px;
+    font-weight: 900;
+    text-align: center;
+    margin-top: 30px;
+    margin-bottom: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.boxes {
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.box img, .box p {
+    height: 130px;
+    width: 130px;
+}
+
+.box img {
+    border: 2px solid #3882f6;
+    border-radius: 10px;
+}
+
+.box p {
+    text-align: center;
+    color: gray;
+}
+
+.quote {
+    background-color: #e5e7eb;
+    padding: 100px 370px;
+}
+
+.saying {
+    font-size: 36px;
+    font-style: italic;
+    font-weight: light;
+    color: #1f2937
+}
+
+.author {
+    font-weight: bold;
+    text-align: end;
+}
+
+.footer {
+    display: flex;
+    background-color: #1f2937;
+    color: #e5e7eb;
+    height: 70px;
+    justify-content: center;
+    align-items: center;
+}
+
+.action {
+    padding: 100px 200px;
+}
+
+.action-bar {
+    display: flex;
+    background-color: #3882f6;
+    padding: 50px 100px;
+    border-radius: 10px;
+}
+
+.maintext {
+    color: white;
+    font-weight: bold;
+    font-size: large;
+}
+
+.subtext {
+    color: #e5e7eb;
+}
+
+.action-bar button {
+    height: 30px;
+    margin-left: auto;
+    text-decoration: none;
+    background-color: #3882f6;
+    padding: 5px 30px;
+    border-radius: 5px;
+    color: white;
+    border: 1px solid white;
+}
